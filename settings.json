@@ -1,0 +1,117 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.mouseWheelZoom": true,
+    "workbench.preferredHighContrastColorTheme": "Visual Studio Light",
+    "editor.tabSize": 4,
+    "explorer.confirmDelete": false,
+    "editor.letterSpacing": 1,
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "JetBrains Mono Medium",
+    "debug.console.fontSize": 13,
+    "editor.tabCompletion": "on",
+    "editor.useTabStops": false,
+    "editor.detectIndentation": false,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "explorer.confirmDragAndDrop": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "diffEditor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.largeFileOptimizations": false,
+    "editor.fontLigatures": true,
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": true,
+    "diffEditor.maxFileSize": 20,
+    "editor.accessibilityPageSize": 5,
+    "bracketPairColorizer.depreciation-notice": false,
+    "workbench.startupEditor": "none",
+    "workbench.productIconTheme": "icons-carbon",
+    "editor.inlineSuggest.enabled": true,
+    "javascript.format.semicolons": "ignore",
+    "html.format.enable": true,
+    "editor.formatOnPaste": true,
+    "terminal.integrated.cursorBlinking": true,
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "html.format.endWithNewline": true,
+    "editor.formatOnType": true,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "editor.wordBasedSuggestions": true,
+    "terminal.integrated.fontFamily": "SF Mono",
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false
+    },
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "editor.formatOnSaveMode": "modifications",
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "git.ignoreMissingGitWarning": true,
+    "[css]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[sass]": {
+        "editor.defaultFormatter": "syler.sass-indented"
+    },
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../css/"
+        },
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "~/../css/css.min/"
+        }
+    ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "liveSassCompile.settings.excludeList": [
+
+        "**/node_modules/**",
+        ".vscode/**"
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    "window.commandCenter": true,
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu"
+            ]
+        }
+    }
+}
